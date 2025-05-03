@@ -38,7 +38,7 @@ inspirelogin/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Gayatridandgal/inspirelogin.git](https://github.com/Gayatridandgal/InspireAll-Login
+   git clone https://github.com/Gayatridandgal/InspireAll-Login
    cd inspirelogin
 ````
 
