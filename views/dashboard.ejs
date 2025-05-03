@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - InspireAll</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="/logo.png" alt="InspireAll Logo" class="logo">
+            <span class="site-title">InspireAll</span>
+        </div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/business-info">Business Info</a>
+            <a href="/post">Post</a>
+            <a href="/schemes">Schemes</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+        <div class="dashboard-content">
+            <h2>Welcome, <%= email %>!</h2>
+            <p>You've successfully logged in to your InspireAll account.</p>
+            
+            <div style="margin-top: 2rem;">
+                <h3>Get Started</h3>
+                <p>Here are some actions you can take to grow your rural business:</p>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                    <div style="background-color: #282840; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <h4>Business Profile</h4>
+                        <p>Complete your business details to get personalized guidance</p>
+                    </div>
+                    <div style="background-color: #282840; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <h4>Learning Resources</h4>
+                        <p>Access training materials to improve your business skills</p>
+                    </div>
+                    <div style="background-color: #282840; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <h4>Government Schemes</h4>
+                        <p>Discover funding opportunities for your business</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
