@@ -43,7 +43,7 @@ app.get('/', (req, res) => res.render('index'));
 // Dashboard Route (Ensuring authentication if needed)
 app.get('/dashboard', (req, res) => {
     if (!req.session.user) {
-        return res.redirect('/login'); // Redirect if user isn't logged in
+        return res.redirect('/login'); // Redirect if user isn't logged in or auth fail
     }
     
     res.render('dashboard', { email: req.session.user.email }); // Pass email to template
