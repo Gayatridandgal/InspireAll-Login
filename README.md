@@ -6,7 +6,7 @@ A secure user authentication system built with Node.js, Express, MongoDB, and EJ
 - Numeric CAPTCHA verification
 - Session-based user management
 
- Technologies Used
+ ## 🔧Technologies Used
 
 - Node.js
 - Express.js
