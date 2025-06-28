@@ -7,6 +7,7 @@ A secure user authentication system built with Node.js, Express, MongoDB, and EJ
 - Session-based user management
 
 
+ ## 🔧Technologies Used
 - Node.js
 - Express.js
 - MongoDB & Mongoose
